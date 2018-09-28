@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+rm foo1
+gcc udp_client.c -o client
+./client 128.138.201.67 5105

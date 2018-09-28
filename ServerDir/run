@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm poo
+gcc udp_server.c -o server
+./server 5105

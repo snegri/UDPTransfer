@@ -1,0 +1,2 @@
+	In this Project I have programmed a UDP connection using a socket. The program allows the user to retrieve/send files to a remote server. It also allows the user to run the ls command and delete files from the server. It utilizes the sendto and recfrom C system calls to send and receive data in byte chunks. 
+	To run my code, simply run make in both the ClientDir and ServerDir directories. After this, one can simply run my run script and it should connect using my specified default IP and PORT. 
